@@ -1,0 +1,17 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    /* margin-left: auto;
+    margine-right: auto; */
+    background: url("../images/leading-24px.png")
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1.5em;   /* 16 X 1.5 = 24 */
+    font-size: 16px;
+    font-family: "Spoqa Han Sans";
+    letter-spacing: -0.005em;
+    line-height: 1.5;      /* 16 X 1.5 = 24 */
+    color: #000000;
+
+}

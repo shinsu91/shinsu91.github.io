@@ -1,0 +1,47 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    background: url("../images/leading-21px.png");
+    font-size: 1.4rem;
+    font-family: "Spoqa Han Sans";
+    line-height: 1.5;
+    letter-spacing: -0.020em;
+    color: #333741
+}
+
+.container {
+    width: 820px;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    /*background-color: #fff;*/
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+h1, h3, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 2.1rem;
+    letter-spacing: -0.050em;
+}
+
+h1 {
+    font-size: 5.463rem;
+    line-height: 6.3rem;
+}
+h3 {
+    font-size: 3.169rem;
+    line-height: 4.2rem;
+ }
+h5 {
+    font-size: 1.838rem;
+    line-height: 2.1rem;
+  }
+h6 {
+    font-size: 1.563rem;
+    line-height: 2.1rem;
+  }

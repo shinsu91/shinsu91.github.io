@@ -11,7 +11,8 @@ html {
 /* body 요소에 배경이미지(leading 21px 패턴) 설정 */
 body {
     height: 100vh;  
-    margin: 0;
+    margin-top: 8.4rem;
+    /*margin: 0;*/
     background: url("../images/leading-21px.png");
 
     /* 본문 디자인 (상속) */
@@ -75,7 +76,7 @@ ul {}
 ol {}
 
 /* 목록 항목(아이템) 디자인 */
-li, img {
+li {
     margin-bottom: 4.2rem;
 }
 .footer {
@@ -107,11 +108,20 @@ img {
     vertical-align: bottom;
 }
 
+.main {
+    margin-top: 4.2rem;
+}
+
+
 /* 페이지 컨테이너*/
 .container {
     width: 820px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header {
+    text-align: center;
 }
 
 .nametag {

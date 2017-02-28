@@ -66,8 +66,17 @@ li {
     margin-right: auto;
 }
 
+.header {
+    margin-top: 24px;
+    text-align: center;
+}
+
+
+.main {
+    margin-top: 4.8rem;
+}
 
 img {
     vertical-align: bottom;
-    margin-bottom: 4.8rem;
+
 }

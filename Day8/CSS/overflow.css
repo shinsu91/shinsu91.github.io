@@ -1,0 +1,29 @@
+.html {
+    /* 모든 브라우저는 높이가 낮을때 스크롤이 안보이는데, 콘텐츠가 길 경우 스크롤이 생기게 되고, 그에 따라 축이 달라지기 때문에 하단 코드를 넣어줘야 한다, 축이 움직이지 않는다 */
+    overflow-y: scroll;
+}
+
+.demo {
+    width: 500px;
+    height: 340px;
+    margin: 3em auto;
+    border: 5px solid #ddd;
+    padding: 1em;
+}
+
+.o-visible {
+    overflow: visible;
+}
+
+.o-hidden {
+    overflow: hidden;
+}
+
+.o-scroll {
+    overflow: scroll;
+    /* overflow-x: scroll; */
+}
+
+.o-auto {
+    overflow: auto;
+}

@@ -1,0 +1,28 @@
+body {
+    margin: 100px auto;
+    width: 650px;
+}
+
+
+
+.dropcap {
+    line-height: 1.5;
+}
+
+/*.dropcap span {
+    float: left;
+    margin-right: 10px;
+    color: red;
+    font-size: 30px;
+    font-weight: 500;
+}*/
+
+.dropcap::first-letter {
+    float: left;
+    margin-right: 10px;
+    color: red;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(circle, #47333e, #291c23 80%);
+}
+
+.banner {
+    position: absolute;
+    width: 800px;
+    height: 320px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.banner * {
+    position: absolute;
+}
+
+.banner-apes {
+    bottom: 90px;
+}
+
+.banner-golliras {
+    bottom: 5px;
+    left: 10px;
+}
+
+
+.banner-kingkong {
+    bottom: 0;
+    right: 0;
+}
+
+.banner-logo {
+    top: 20px;
+    left: 20px;
+}

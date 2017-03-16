@@ -1,0 +1,100 @@
+
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.wrap {
+    overflow: hidden;
+    position: absolute;
+    width: 700px;
+    height: 1011px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    /*background-color: #b31011;*/
+}
+
+.poster * {
+    position: absolute;
+}
+
+.copy {
+    text-align: right;
+    color: #f9ffd7;
+    font-size: 25px;;
+    top: 42px;
+}
+
+.line {
+    bottom: 230px;
+}
+
+.human_1 {
+    left: 0;
+}
+
+.human_2 {
+    left: 99px;
+    bottom: 342px;
+}
+
+.human_3 {
+    left: 225px;
+    bottom: 430px;
+}
+
+.human_4 {
+    left: 372px;
+    bottom: 504px;
+}
+
+.human_5 {
+    left: 445px;
+    bottom: 544px;
+}
+
+.human_6 {
+    left: 500px;
+    bottom: 576px;
+}
+
+.human_7 {
+    left: 540px;
+    bottom: 605px;
+}
+
+.human_8 {
+    left: 580px;
+    bottom: 623px;
+}
+
+.human_9 {
+    left: 603px;
+    bottom: 643px;
+}
+
+.human_10 {
+    left: 630px;
+    bottom: 655px;
+}
+
+.human_11 {
+    left: 645px;
+    bottom: 670px;
+}
+
+.human_12 {
+    left: 665px;
+    bottom: 678px;
+}
+
+.human_13 {
+    right: 0;
+    bottom: 690px;
+    transition: left 0.5s ease-out 0.2s;
+}
+
